@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+body form {
+  width: 471px;
+  height: 505px;
+  background-color: #1779db;
+  padding: 18px 29px;
+}
+
+body form #date-country {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+body form label {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  color: #fff;
+}
+
+body form .inputContainer {
+  display: flex;
+  align-items: center;
+  height: 43px;
+  border: 1px solid #fff;
+  margin-top: 8px;
+  margin-bottom: 27px;
+}
+
+body form .messageContainer {
+  display: flex;
+  align-items: center;
+  height: 158px;
+  border: 1px solid #fff;
+  margin-top: 8px;
+}
+
+body form .inputContainer input {
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  padding: 0px 11px;
+}
+body form .messageContainer textarea {
+  font-family: "Lato", sans-serif;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 17px;
+  height: 90%;
+  width: 100%;
+  background-color: transparent;
+  padding: 0px 11px;
+  resize: none;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.3);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(255, 255, 255, 0.3);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(255, 255, 255, 0.3);
+}
